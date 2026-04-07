@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+}
+.div{
+    margin: 6rem 12rem;
+    height: 20rem;
+    width: 36rem;
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px gray;
+    animation: slider 10s linear infinite;
+}
+
+@keyframes slider {
+    0%{
+        background-image: url('../img/1.jpg');
+    }
+    25%{
+        background-image: url('../img/2.jpg');
+    }
+    50%{
+        background-image: url('../img/3.jpg');
+    }
+    75%{
+        background-image: url('../img/4.jpg');
+    }
+    100%{
+        background-image: url('../img/5.jpg');
+    }
+}
