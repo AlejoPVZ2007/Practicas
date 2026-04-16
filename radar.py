@@ -25,7 +25,7 @@ def draw_radar():
     t.pendown()
     t.goto(200, 0)
 
-    t.penup
+    t.penup()
     t.goto(0, -200)
     t.pendown()
     t.goto(0, 200)
@@ -47,7 +47,7 @@ while True:
     x = 200 * math.cos(math.radians(angle))
     y = 200 * math.sin(math.radians(angle))
 
-    bean
+    bean.penup()
     bean.goto(0, 0)
     bean.setheading(angle)
     bean.pendown()
